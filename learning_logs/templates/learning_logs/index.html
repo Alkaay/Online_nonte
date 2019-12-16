@@ -1,0 +1,12 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+	<div class='jumbotron'>
+		<h1>Онлайн блокнот</h1>
+	</div>
+{% endblock header %}
+{% block content %}
+<h2>
+	<a href="{% url 'users:register' %}">Зарегестрируйте свой аккаунт</a> чтобы создать свой "Онлайн блокнот" и список интересующих вас тем.
+</h2>
+{% endblock content %}
