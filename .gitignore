@@ -1,3 +1,7 @@
 ll_env/
 __pycache__/
+static/
 *.sqlite3
+Procfile
+runtime.txt
+
